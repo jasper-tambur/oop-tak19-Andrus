@@ -12,7 +12,7 @@ class Connection {
                 $config['options']
             );
         } catch ( PDOException $e ) {
-            die('Viga: ei saa andmebaasiga ühendust!');
+            die($e->getMessage());
         }
 
     }

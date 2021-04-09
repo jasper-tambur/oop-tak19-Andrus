@@ -10,7 +10,7 @@ require 'core/database/Connection.php';
 require 'core/database/QueryBuilder.php';
 
 $app['database'] = new QueryBuilder(
-    Connection::make($app['config']['database']['local'])
+    Connection::make($app['config']['database']['zone'])
 );
 
 require 'controllers/PagesController.php';
