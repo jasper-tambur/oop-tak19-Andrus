@@ -10,3 +10,6 @@ $router->get('users/edit', 'UsersController@edit');
 
 $router->post('users', 'UsersController@store');
 $router->post('users/edit', 'UsersController@update');
+
+$router->get('tasks', 'TasksController@index');
+$router->post('tasks', 'TasksController@store');

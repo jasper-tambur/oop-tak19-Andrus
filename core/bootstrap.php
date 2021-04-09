@@ -15,6 +15,7 @@ $app['database'] = new QueryBuilder(
 
 require 'controllers/PagesController.php';
 require 'controllers/UsersController.php';
+require 'controllers/TasksController.php';
 
 function view ( $name, $data = [] ) {
 
