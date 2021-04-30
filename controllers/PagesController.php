@@ -11,14 +11,11 @@ class PagesController {
     public function about () {
 
         return view('about', ['company' => 'Ametikool']);
-        
+
     }
 
     public function contact () {
 
         return view('contact');
-
     }
-
-
 }
